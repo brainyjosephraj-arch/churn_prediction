@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # df = pd.read_csv("/Users/ishika.3.saxena/serverless/churn_prediction/data/Teleco-Customer-churn.csv")
-df = pd.read_csv("data/Teleco-Customer-churn.csv")
+df = pd.read_csv("data/Telco-Customer-churn.csv")
 print("original dataset shape",df.shape)
 
 # handles missing values (TotalCharges sometimes is object due to spaces → convert to numeric)
